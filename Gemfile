@@ -31,8 +31,11 @@ group :production do
     gem 'pg'
 end
 
-## Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-#gem 'turbolinks'
+# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
+gem 'turbolinks'
+
+# to use attr_accessible in app/models/microposts
+gem 'protected_attributes'
 
 ## Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 #gem 'jbuilder', '~> 1.2'
